@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Responsive Food Delivery Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- <script src="app.js"></script> -->
+
+</head>
+
+<body>
+    <!-----sidebar----->
+    <div class="sidebar">
+        <!------logo---->
+        <h1>
+            <class="logo"> FoodTime
+        </h1>
+        <!------Lilst of menu----->
+        <div class="sidebar-menu">
+            <a href="#"> <ion-icon name="storefront-outline"></ion-icon> Home</a>
+            <a href="#"> <ion-icon name="receipt-outline"></ion-icon>Bills </a>
+            <a href="#"> <ion-icon name="wallet-outline"></ion-icon> Wallet</a>
+            <a href="#"> <ion-icon name="notifications-outline"></ion-icon> Notifications</a>
+            <a href="#"> <ion-icon name="chatbubbles-outline"></ion-icon> Contact Us</a>
+            <a href="#"> <ion-icon name="settings-outline"></ion-icon> Setting</a>
+        </div>
+        <div class="sidebar-logout">
+            <a href="#"> <ion-icon name="log-out-outline"></ion-icon> Logout</a>
+
+        </div>
+    </div>
+    <!-----main---->
+    <div class="main">
+        <i class="fa-duotone fa-list-radio"></i>
+        <!-----main navbar---->
+        <div class="main-navbar">
+            <!-- <ion-icon class="menu-toggle" name="menu-outline"> </ion-icon> -->
+            <!--------search-bar----->
+            <div class="search">
+                <input type="text" placeholder="what you want to eat?">
+                <button class="search-btn"> Search</button>
+            </div>
+            <!--------profile icon on left  side of  navbar----->
+            <div class="profile">
+                <a class="cart" href="#"> <ion-icon name="cart-outline"></ion-icon></a>
+
+                <a class="user" href="#"> <ion-icon name="person-outline"></ion-icon></a>
+
+            </div>
+        </div>
+        <div class="main-highlight">
+            <div class="main-header">
+                <h2 class=" main-title">Recommendation </h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+
+                </div>
+            </div>
+
+            <!-----highlight menu----->
+            <div class="highlight-Wrapper">
+                <div class="highlight-card">
+                    <div class="highlight-img">
+                        <img class="highlight-img" src="wine2.jpg" alt="">
+                    </div>
+                    <div class="highlight-desc">
+                        <h4>wine </h4>
+                        <p> $1400</p>
+
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-img">
+                        <img class="highlight-img" src="logo4.avif" alt="">
+                    </div>
+                    <div class="highlight-desc">
+                        <h4>Coffee</h4>
+                        <p> $40</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-img">
+                        <img class="highlight-img" src="burger.avif" alt="">
+                    </div>
+                    <div class="highlight-desc">
+                        <h4> Burger</h4>
+                        <p> $135</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-img">
+                        <img class="highlight-img" src="logo5.jpg" alt="">
+                    </div>
+                    <div class="highlight-desc">
+                        <h4> Pizza</h4>
+                        <p> $350</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-------main menu / order---->
+        <div class="main-menu">
+            <div class="main-filter">
+                <div>
+                    <h2 class=" main-title"> Menu<br>Category</h2>
+                    <diV class=" main-arrow">
+                        <ion-icon class="back-menu" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next-menu" name="chevron-forward-circle-outline"></ion-icon>
+                    </diV>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p> All Menus</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                        </div>
+                        <p>Burger</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="pizza-outline"></ion-icon>
+                        </div>
+                        <p> pizza</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="wine-outline"></ion-icon>
+                        </div>
+                        <p> wine</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p> Ice Cream</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="Cafe-outline"></ion-icon>
+                        </div>
+                        <p> Coffee</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fish-outline"></ion-icon>
+                        </div>
+                        <p>Sea food</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="Nutrition-outline"></ion-icon>
+                        </div>
+                        <p> Healthy</p>
+                    </div>
+
+                </div>
+            </div>
+            <hr class="divider">
+            <!-----List of food menu----->
+            <div class="main-detail">
+                <h2 class=" main-title"> choose order</h2>
+                <div class="detail-wrapper">
+                    <div class="detail-card">
+                        <img class="detail-img" src="logo2.avif" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Coffee</h4>
+                                <p class="detail-sub"> Coffee is made from roasted and ground coffee beansand aromatic
+                                    beverage.</p>
+                                <p class="price">$40</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="logo5.jpg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Pizza</h4>
+                                <p class="detail-sub">Prepare pizza dopugh,spread tomato sauce,add desired toppings,
+                                    back in a hot oven.</p>
+                                <p class="price">$350</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="burger3.jpg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Burger</h4>
+                                <p class="detail-sub">Season ground beef,form patties, cook on a hot grill,assemble with
+                                    topping in a bun</p>
+                                <p class="price">$135</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="whitewine.jpg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> White wine</h4>
+                                <p class="detail-sub">White wine is produced by fermenting crushed grapes using yeast,
+                                    warmth, joy. .</p>
+                                <p class="price">$1400</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="wine2.jpg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Red wine</h4>
+                                <p class="detail-sub">Red wine, grapes, oak barrels, time, fermentation, aging,
+                                    memories, warmth, joy.</p>
+                                <p class="price">$2300</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="rosewine.jpg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Rose wine</h4>
+                                <p class="detail-sub">Select red grapes. Crush. Macerate. Press. Ferment. Monitor. Halt.
+                                    Age. Bottle. Sip!</p>
+                                <p class="price">$1900</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="Sparklingwine2.jpeg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Sparkling wine</h4>
+                                <p class="detail-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                                    voluptatum!</p>
+                                <p class="price">$1600</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="ice2.jpeg" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Ice cream</h4>
+                                <p class="detail-sub">Mix cream, sugar, freeze, stir occasionally, enjoy homemade
+                                    vanilla ice cream.</p>
+                                <p class="price">$90</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="seafood.webp" alt="">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4> Sea food</h4>
+                                <p class="detail-sub">Fresh fish, shrimp, crab, oysters, mussels, clams, calamari,
+                                    lobster, scallops. Enjoy!</p>
+                                <p class="price">$500</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<!------Ionicons------>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-----adding javascript-->
+<script  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>
+
